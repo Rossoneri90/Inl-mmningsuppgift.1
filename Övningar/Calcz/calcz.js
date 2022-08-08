@@ -78,10 +78,6 @@ getDisplayNumber(number) {
     }
 }
 
-updateHistory () {
-    console.log( this.selectedNumber, this.chooseOperation);
-}
-
 updateDisplay () {
     this.currenttaskTextElement.innerText = 
     this.getDisplayNumber(this.currenttask)
