@@ -1,0 +1,48 @@
+.page_header {
+    background-color: 10, 40,150;
+
+    color: rgb(255, 255, 255);
+
+}
+
+.subtitle {
+    color: rgb(red, green, blue);
+    font-size: 1em;
+    margin-top: -0.5em;
+
+}
+
+nav ul {
+    background-color: rgb(160, 160, 200);
+
+    list-style: none;
+
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+}
+
+.page_footer {
+
+    background-color: aquamarine;
+}
+
+li {
+    color: aqua;
+
+}
+
+ul, ol {
+    margin-left: 2em;
+}
+
+link {
+    list-style: none;
+    color: brown;
+}
+ 
+*/
+* {
+    padding: 0;
+    margin: 0;
+}

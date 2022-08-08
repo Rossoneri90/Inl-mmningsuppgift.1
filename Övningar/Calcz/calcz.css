@@ -1,0 +1,74 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Gotham Rounded, sans-serif;
+    font-weight: normal;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    background: rgb(118, 62, 62);
+  }
+  
+  .calcz-grid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+  }
+  
+  .calcz-grid > button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid rgb(0, 0, 0);
+    outline: none;
+    background-color: rgba(55, 71, 162, 0.75);
+  }
+  
+  .calcz-grid > button:hover {
+    background-color: rgba(255, 0, 0, 0.9);
+  }
+
+  .span-two {
+    grid-column: span 2;
+  }
+  
+  .display {
+    grid-column: 1 / -1;
+    background-color: rgba(158, 0, 0, 0.75);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+  
+  .display.pre-task {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1.5rem;
+  }
+  
+  .display.current-task {
+    color: rgb(0, 0, 0);
+    font-size: 2.5rem;
+  }
+
+  .history {
+    width: 50px;
+    position: absolute;
+    left: 10px;
+    top: 150px;  
+    grid-column: 1 / -1;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 200px;
+    word-wrap: break-word;
+    word-break: break-all;
+  }

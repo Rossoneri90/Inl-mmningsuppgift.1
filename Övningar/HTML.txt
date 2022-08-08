@@ -1,0 +1,34 @@
+    <div class="colums1">
+        <h1>Isaac</h1>
+        </p>
+            <li>Namn: Isaac Paolo.</li>
+            <li>Ålder: 10år.</li>
+            <li>Född: December 23.</li>
+            <li>Position: Central mittfälltare. </li>
+            <li>Favoritmat: </li>
+            <li>Favoritfärg: Röd</li>
+            <li>Favoritlåt: The Game feat Lil Wayne - Red nation</li>
+            <li>Favoritfilm: </li>
+        <h1>Alma</h1>
+            <li>Namn: Alma.</li>
+            <li>Ålder: 7år.</li>
+            <li>Född: Oktober 5 2014. </li>
+            <li>Position: Anfallare.</li>
+            <li>Favoritmat: </li>
+            <li>Favoritfärg: Rosa, Grön, RödSvart</li>
+            <li>Favoritlåt: </li>
+            <li>Favoritfilm: </li>
+          
+        </p>
+    </div>
+
+
+     
+            <footer>
+                <p>Author: Rossoneri90</p>
+                <p><a href="nijaz.jakupovic1990@gmail.com">nijaz.jakupovic1990@gmail.com</a></p>
+              </footer> 
+     
+
+
+

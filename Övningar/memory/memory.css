@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.SMBACK {
+  background-image: url("SMBACK.webp");
+  background-size: 1000%;
+  margin-left:auto;
+  margin-right:auto;
+  position: fixed;
+  background-size: cover;
+  height: 100%; 
+  width: 100%;
+
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 2em;
+  place-items: center;
+  position: center;
+}
+
+.memorycard {
+  
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  cursor: pointer; 
+  transform-style: preserve-3d;
+  transition: all 1s linear;
+}
+.flip {
+  transform: rotateY(180deg);
+}
+
+
+.memorycard img {
+
+  height: 100%;
+  width: 100%;
+  transition: 0.3 ease;
+  position: absolute;
+}
+
+.memorycard .front {
+
+}
+
+.back {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  pointer-events: none;
+  transform: rotateX(0deg);
+  -webkit-transform: rotateX(0deg);
+}
+.card.paired {
+  z-index: 1;
+  background-color: green;
+}
+
+.card.clicked img,
+.card.paired {
+  z-index: 1;
+}
+
+.card.boo {
+  background-color: red;
+  animation: shake 0.5s;
+}
+
+.card.flip,
+.card.boo {
+  animation: shake 0.5s;
+  transform: rotateY(180deg);
+}
